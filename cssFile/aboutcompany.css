@@ -1,0 +1,90 @@
+
+main{
+    margin-bottom: 100px;
+}
+
+.shr {
+    font-family: 'Caveat', cursive;
+}
+
+.shapka{
+    background-color: #7e41e1;
+    width: 1160px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.company{
+    text-align: justify;
+    
+    
+}
+@font-face {
+    font-family: "TT Norms Regular";
+    src: url("file:///C:/Users/Настюша/OneDrive/Documents/tt-norms-regular.otf") format('opentype');
+}
+@font-face {
+    font-family: "Caveat";
+    src: url("file:///C:/Users/Настюша/OneDrive/Documents/Caveat.ttf")
+}
+body {
+font-family: "TT Norms Regular", sans-serif;
+}
+h1{
+    font-size: 42px;
+}
+
+.block1{
+    background-color: #ededed7a;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+    
+}
+.block2{
+    background-color: #7e41e1;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    text-align: left;
+    transition: all 1s;
+    text-align: center;
+    box-shadow: 0px 1px 10px #808080;
+}
+.block2:hover{
+    background-color: #9672d0;
+}
+.block3{
+    background-color: #7e41e1;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 22px;
+    transition: all 1s;
+}
+.block3:hover{
+    background-color: #9672d0;
+}
+
+
+div{
+    a{
+        text-decoration: none;
+        font-family: 'Caveat', cursive;
+        font-size: 35px;
+        color: black;
+    }
+    a:visited{
+        color: #7900fb;
+    }
+}
+

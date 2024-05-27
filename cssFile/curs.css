@@ -1,0 +1,212 @@
+
+.shr {
+    font-family: 'Caveat';
+    font-style: italic;
+}
+.shapka{
+    background-color: #7e41e1;
+    width: 1160px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.shapka2{
+    background-color: #E7DCFE;
+    width: 1160px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 20px;
+    left: 150px;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 0px transparent;
+    transition: all 1s ease;
+}
+.shapka2:hover {
+    box-shadow: 0px 5px 15px #aaaaaa;
+}
+.company{
+    text-align: justify;  
+}
+.scritoe{
+    margin-left: 150px;
+    text-align: justify;
+    margin-right: 150px;
+    font-size: 18px;
+}
+h1{
+    font-size: 42px;
+}
+.courses {
+    display: flex;
+    margin-bottom: 15px;
+}
+.courses > *:first-child {
+    margin-left: 0;
+}
+.courses > *:last-child {
+    margin-right: 0;
+}
+.courses > * {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.course-item-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+.course-item-value {
+    font-size: 32px;
+    font-weight: 300;
+}
+.course-item-value.top {
+    color: rgb(255, 181, 181);
+}
+.course-item-value.bottom {
+    color: rgb(183, 255, 181);
+}
+.text {
+    font-family: "TT Norms Regular", sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px; 
+}
+.text1 {
+    font-family: "TT Norms Regular", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+}
+.card1 {
+    position: relative;
+    top: 20px;
+    left: 150px;
+    background-color: #c0c0c0;
+    width: 1060px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 10px;
+    background: linear-gradient(#7e41e1, #a175ed);
+    transition: all 1s ease;
+    box-shadow: 0px 0px 0px transparent;
+    margin-top: 50px;
+    margin: 0%; 
+}
+.card1:hover {
+    box-shadow: 0px 5px 15px #7e41e1;
+}
+.curs {
+    /* border: solid 2px #D0BAF7; */
+    width: 1000px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    color: #ffffff;
+    /* background-color: #D0BAF7; */
+    text-align: center;
+    align-content: center;
+    font-size: 35px;
+    box-shadow:  0px 0px 10px rgba(255, 255, 255, 0.333);
+}
+.curs3{
+    position: relative;
+    left: 150px;
+}
+.vv2 {
+    position: relative;
+    left: 330px;
+    top: 19px;
+}
+.vv1 {
+    position: relative;
+    left: 76px;
+    top: 40px;
+}
+#selectTo{
+    background-color: #47474700;
+    border: solid 1px #47474700;
+    font-family: "TT Norms Regular", sans-serif;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 7px;
+    transition: all 1s ease; /* Изменено время перехода */
+    box-shadow: 0px 0px 0px transparent;
+    box-shadow:  0px 0px 10px #D0BAF7;
+}
+#selectTo:hover{
+    box-shadow: inset 0px 0px 10px #d1d1d1;
+}
+#selectFrom{
+    background-color: #47474700;
+    border: solid 1px #47474700;
+    font-family: "TT Norms Regular", sans-serif;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 7px;
+    transition: all 1s ease; /* Изменено время перехода */
+    box-shadow: 0px 0px 0px transparent;
+    box-shadow:  0px 0px 10px #D0BAF7;
+}
+#selectFrom:hover{
+    box-shadow: inset 0px 0px 10px #d1d1d1;
+}
+#resultTo {
+    background-color: #47474700;
+    border: solid 1px #47474700;
+    font-family: "TT Norms Regular", sans-serif;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px #D0BAF7;
+    padding: 7px;
+    transition: all 1s ease; /* Изменено время перехода */
+    box-shadow: 0px 0px 0px transparent;
+    box-shadow:  0px 0px 10px #D0BAF7;
+}
+#resultTo:hover{
+    box-shadow: inset 0px 0px 10px #d1d1d1;
+}
+#inputFrom{
+    background-color: #47474700;
+    border: solid 1px #47474700;
+    font-family: "TT Norms Regular", sans-serif;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px #D0BAF7;
+    padding: 7px;
+    transition: all 1s ease; /* Изменено время перехода */
+    box-shadow: 0px 0px 0px transparent;
+    box-shadow:  0px 0px 10px #D0BAF7;
+}
+#inputFrom:hover{
+    box-shadow: inset 0px 0px 10px #d1d1d1;
+}
+.text4{
+    font-family: 'Caveat', cursive;
+}
+main{
+    margin-bottom:  100px;
+}
+
+
+

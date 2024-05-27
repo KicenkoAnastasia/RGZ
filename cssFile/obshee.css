@@ -1,0 +1,44 @@
+header{
+    background-color: #ffffff;
+    height: 40px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 30px;
+
+   
+    .a2{
+        text-decoration: none;
+        color: #7e41e1;
+      
+        padding: 8px;
+        font-size: 16px;
+        margin: 4px;
+
+    }
+    .a1{
+        text-decoration: none;
+        color: #555555;
+        transition: all 1s;
+        padding: 8px;
+        font-size: 16px;
+        margin: 4px;
+    }
+    .a1:hover{
+        color: rgb(0, 0, 0);
+        transition: all 1s;
+    }
+    b{
+        font-size: 30px;
+    }
+}
+@font-face {
+    font-family: "TT Norms Regular";
+    src: url("file:///C:/Users/Настюша/OneDrive/Documents/tt-norms-regular.otf") format('opentype');
+}
+@font-face {
+    font-family: "Caveat";
+    src: url("file:///C:/Users/Настюша/OneDrive/Documents/Caveat.ttf")
+}
+body {
+font-family: "TT Norms Regular", sans-serif;
+}
