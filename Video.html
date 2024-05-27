@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logotip4.png">
+    <title>Видео Банка Точка</title>
+    <link rel="stylesheet" href="../RGZ/cssFile/video.css">
+    <link rel="stylesheet" href="../RGZ/cssFile/obshee.css">
+  
+</head>
+
+<body style="background-image: url('../img/fon6.png');">
+    <header style="display: flex; align-items: center; ">
+        <img src="../RGZ/img/black.png" style="margin-right: 150px; margin-left: 165px;width: 8%;">
+        
+        <a href="../RGZ/aboutCompany.html" class="a1"  ><span>О компании</span></a>
+        <a href="../RGZ/News.html" class="a1"  ><span>Новости</span></a>
+        <a href="../RGZ/Curs.html" class="a1"  ><span>Курс валют</span></a>
+        <a href="../RGZ/Contacs.html" class="a1"  ><span>Контактные данные</span></a>
+        <a href="../RGZ/Video.html" class="a2" ><span>Видео</span></a>
+
+    </header>
+    <main>
+        <div class="container">
+            <video src="../RGZ/video/v1.mp4" id="video-slider" autoplay loop muted controls></video>
+        </div>
+        <div class="p1">
+            <div onclick="videoUrl('../RGZ/video/v1.mp4')"><img src="../RGZ/img/scrin1.png" ></div>
+            <div onclick="videoUrl('../RGZ/video/v2.mp4')"><img src="../RGZ/img/scrin2.png" ></div>
+            <div onclick="videoUrl('../RGZ/video/v3.mp4')"><img src="../RGZ/img/scrin3.png" ></div>
+            <div onclick="videoUrl('../RGZ/video/v4.mp4')"><img src="../RGZ/img/scrin4.png" ></div>
+            <div onclick="videoUrl('../RGZ/video/v5.mp4')"><img src="../RGZ/img/scrin5.png" ></div>
+        </div>
+        <script>
+            function videoUrl(slider){
+                document.getElementById('video-slider').src = slider;
+            }
+        </script>
+    </main>
+    <footer>
+        <img src="../RGZ/img/white.png" style="margin-right: 150px; margin-left: 165px;width: 8%; padding-top: 20px;">
+    </footer>
+</body>
+</html>
