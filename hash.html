@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    const hash = "392e65890f2c36267f18f1700e17dc1a";
+    const lastSevenDigitsVariant = hash.slice(-7); // Получение последних 7 цифр для номера варианта
+    const decimalNumberVariant = parseInt("0x" + lastSevenDigitsVariant, 16); // Преобразование в десятичное число
+    const variantNumber = decimalNumberVariant % 600 === 0 ? 600 : decimalNumberVariant % 600; // Остаток от деления
+    console.log(variantNumber + ' вариант компании'); 
+
+    const lastSevenDigitsMenu = hash.slice(-7); 
+    const decimalNumberMenu = parseInt("0x" + lastSevenDigitsMenu, 16);
+    const menuNumber = decimalNumberMenu % 9 === 0 ? 9 : decimalNumberMenu % 9;
+    console.log(menuNumber + ' вариант меню'); 
+
+    const lastSevenDigitsCurrency = hash.slice(-7);
+    const decimalNumberCurrency = parseInt("0x" + lastSevenDigitsCurrency, 16); 
+    const currency = decimalNumberCurrency % 43; 
+    console.log(currency + ' вариант валюты'); 
+
+</script>
+<body>
+    
+</body>
+</html>
