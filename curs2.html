@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logotip4.png">
+    <title>Калькулятор валют</title>
+    <link rel="stylesheet" href="../RGZ/cssFile/curs.css">
+    <link rel="stylesheet" href="../RGZ/cssFile/obshee.css">
+    
+    
+    <script src="curs.js"></script>
+    <style>
+        body {
+            font-family: "TT Norms Regular", sans-serif;
+            margin: 0; 
+            padding: 0;
+            overflow-x: hidden; 
+        }
+        header {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            height: 40px;
+            width: 100%;
+            padding-top: 8px;
+            padding-bottom: 30px;
+            position: relative;
+        }
+       
+        .row {
+            position: absolute;
+            left: 700px;
+            top: 120px;
+            
+
+        }
+        .col {
+            flex: 1;
+            margin-right: 7px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../RGZ/img/black.png" style="margin-right: 150px; margin-left: 165px;width: 8%;">
+        <a href="../RGZ/aboutCompany.html" class="a1"><span>О компании</span></a>
+        <a href="../RGZ/News.html" class="a1"><span>Новости</span></a>
+        <a href="../RGZ/Curs.html" class="a2"><span>Курс валют</span></a>
+        <a href="../RGZ/Contacs.html" class="a1"><span>Контактные данные</span></a>
+        <a href="../RGZ/Video.html" class="a1"><span>Видео</span></a>
+    </header>
+    <main>
+        <div class="shapka shr">Курс валют</div>
+        <div class="shapka2">
+            <div>RSD<img src="../RGZ/img/strelka2.png" style="width: 4%; padding-left: 60px; padding-right: 60px;"> RUB</div>
+            
+        </div>
+        
+        <div class="card1">
+            <div>
+                <div class="col-6">
+                    <div class="card p-3">
+                        <div class="curs">
+                            <div class="course-item card card-body ">
+                                <div class="course-item-title">Курс RSD</div>
+                                <div class="course-item-value" data-value="RSD">--.--</div>
+                            </div>
+                        </div>
+                     
+                            <div class=" mb-1 curs3" >
+                                <div class="col">
+                                    <label for="selectFrom" class="text text4">Отдаю:</label>
+                                    <select id="selectFrom" class="form-control">
+                                        <option value="RUB" class="text1">RUB — Рубли</option>
+                                        <option value="RSD" class="text1">RSD — Сербский динар</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <label for="selectTo" class="text text4">Получаю:</label>
+                                    <select id="selectTo" class="form-control">
+                                        <option value="RSD" class="text1 ">RSD — Сербский динар</option>
+                                        <option value="RUB" class="text1">RUB — Рубли</option>
+                                    </select>
+                                </div>
+                            </div>
+                       
+                       
+                            <div class="row">
+                                <div class="col">
+                                    <label for="inputFrom" class="text text4">Сумма:</label>
+                                    <input id="inputFrom" type="number" class="form-control text2" autofocus />
+                                </div>
+                                <div class="col">
+                                    <label for="resultTo" class="text text4">Результат:</label>
+                                    <input id="resultTo" type="number" class="form-control text2" readonly />
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+    </footer>
+
+</body>
+</html>
