@@ -1,13 +1,13 @@
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() { //Document Object Mode
     const rates = {};
     const elementRSD = document.querySelector('[data-value="RSD"]');
     const inputFrom = document.querySelector('#inputFrom');
     const resultTo = document.querySelector('#resultTo');
     const selectFrom = document.querySelector('#selectFrom');
     const selectTo = document.querySelector('#selectTo');
-
+//Вызов функции
     getCurrencies();
 
     async function getCurrencies() {
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 elementRSD.classList.add('bottom');
             }
 
-           
+           //изменение конфвертации
             if (selectFrom.value === 'RUB') {
                 selectTo.value = 'RSD';
             } else if (selectFrom.value === 'RSD') { 
@@ -36,7 +36,8 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Ошибка при получении данных:', error);
         }
     }
-
+//Функция конвертации валют
+//проверка на число
     function convertCurrency() {
         const inputValue = parseFloat(inputFrom.value);
         if (isNaN(inputValue)) {
@@ -53,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-//    функция конвертации
+//    автомат. 
     selectFrom.onchange = function() {
         if (this.value === 'RUB') {
             selectTo.value = 'RSD';
@@ -63,6 +64,6 @@ document.addEventListener('DOMContentLoaded', function() {
         convertCurrency();
     };
 
-    inputFrom.oninput = convertCurrency;
-    selectTo.onchange = convertCurrency;
+    inputFrom.oninput = convertCurrency;//вызов при вводе
+    selectTo.onchange = convertCurrency; //вызов . выбор
 });
